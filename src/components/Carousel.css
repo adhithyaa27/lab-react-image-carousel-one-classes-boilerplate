@@ -1,1 +1,48 @@
-/* write your carousel css in this file */
+#imgs{
+    display: flex;
+    justify-content: center;
+  }
+  
+.title{
+    border: solid white;
+    position: absolute;
+    top: 10vh;
+    background-color: white;
+    opacity: 75%;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 55px;
+  }
+.subtitle{
+    border: solid white;
+    position: absolute;
+    font-size: larger;
+    top: 450px;
+    background-color: white;
+    opacity: 75%;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  img{
+    height: 90vh;
+    width: 650px;
+  }
+.imageCarousel{
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+  }
+#arrow{
+    color: white;
+    border: solid rgb(44, 44, 44);
+    height: 89vh;
+    width: 6vh;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+  }
